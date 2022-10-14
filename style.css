@@ -331,7 +331,7 @@ footer.row {
 
 .outline.green {
     border-color: #29a598;
-    color: #29a598;
+    color: #000000;
 }
 
 .outline.green:focus,
@@ -455,7 +455,7 @@ footer.row {
 
 #projects .carousel-control:focus,
 #projects .carousel-control:hover {
-    color: #29a598;
+    color: #ffffff;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -466,6 +466,7 @@ footer.row {
 }
 
 #projects .carousel-inner img {
+
     width: 100%;
 }
 
@@ -530,17 +531,20 @@ footer.row {
 }
 
 #portfolio .carousel-indicators {
+    color: #ffffff;
     bottom: 0;
     position: relative;
 }
 
 #portfolio .carousel-indicators li {
+    background-color: #1a1a1a;
     border-radius: 20px;
     height: 15px;
     width: 15px;
 }
 
 #portfolio .carousel-indicators li.active {
+    color: #ffffff;
     height: 17px;
     width: 17px;
 }
@@ -601,8 +605,9 @@ footer.row {
     position: relative;
 }
 
+/*#ffce3f*/
 .bg-star-y {
-    background: #ffce3f url(Imgs/yellow-star.png) fixed;
+    background: #FFFFE0 url(Imgs/yellow-star.png) fixed;
     background-size: 60px;
     color: #fffefd;
 }
