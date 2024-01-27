@@ -57,10 +57,15 @@ h4 {
 
 h5 {
     color: #f40800;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.5;
     text-transform: uppercase;
+}
+
+h6 {
+    color: #000000;
+    font-size:0.9rem;
 }
 
 small {
@@ -442,11 +447,11 @@ footer.row {
   Resume Modal
 ===================== */
 #resumeModal h4 {
-    margin-top: 0;
+    margin-top: 1;
 }
 
 .year {
-    text-align: right;
+    text-align: center;
 }
 
 /* =====================
@@ -568,6 +573,7 @@ footer.row {
 
 .label.tag {
     background-color: #ffce3f;
+    color: #000000;
     border-radius: 0;
     font-weight: normal;
 }
@@ -617,19 +623,19 @@ footer.row {
 
 /*#ffce3f*/
 .bg-star-y {
-    background: #FFFFE0 url(Imgs/yellow-star.png) fixed;
+    background: #FFFFE0 url(Assets/yellow-star.png) fixed;
     background-size: 60px;
     color: #fffefd;
 }
 
 .bg-star-g {
-    background: #29a598 url(Imgs/green-star.png) fixed;
+    background: #29a598 url(Assets/green-star.png) fixed;
     background-size: 60px;
     color: #fffefd;
 }
 
 .bg-honeycomb {
-    background: #fffefd url(Imgs/honeycomb.png) fixed;
+    background: #fffefd url(Assets/honeycomb.png) fixed;
     background-size: 24px;
 }
 
