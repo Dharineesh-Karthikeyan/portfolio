@@ -1,0 +1,81 @@
+[
+    {
+        "title" : "AutoML",
+        "icon" : "Assets/Projects/automl.png",
+        "subtitle" : "Streamlit Web Application",
+        "data_target" : "#automl",
+        "full_pic" : "Assets/Projects/automl-full.png",
+        "details": 
+        [
+            "A user-friendly AutoML web app built using streamlit for beginners with little to no amount of coding knowledge, can utilize the power of AI to any data they have.",
+            "Using a simple UI design and an accessible webpage, anyone can upload any dataset and perform the various stages of building a machine learning model such as cleaning, pre-processing, feature selection, training and testing the models using simple button clicks.",
+            "The app is more apt for a teaching/learning focus, where beginners in ML can learn about the different stages and step by step processes needed to build a ML model, and more intermediate people can focus on experimenting with the more minute details such as hyper parameter tuning of the model",
+            "The app can also be used for developing and deploying machine learning models for small scale industrial/real-world problems where they can utilise the powermof ML/AI for free."
+        ],
+        "tech" : ["Python","Streamlit","HTML"],
+        "github" : "Yes",
+        "link" : "https://github.com/Dharineesh-Karthikeyan/AutoML"
+        
+    },
+    {
+        "title" : "Movie Watch List App",
+        "icon" : "Assets/Projects/watchlist.png",
+        "subtitle" : "Windows Application",
+        "data_target" : "#watchlist",
+        "full_pic": "Assets/Projects/watchlist.png",
+        "details":
+        [
+            "An windows application that is useful to keep track of all the movies/series that you have watched.",
+            "Also note down if the series is completed or is there another season coming. Any notes/news about the movie or series can also be noted down."
+        ],
+        "tech" : ["Python","Tkinter","SQL","SQLite DB"],
+        "github" : "No"
+    },
+    {
+        "title" : "Facial Emotions Detector",
+        "icon" : "Assets/Projects/fer.png",
+        "subtitle" : "Computer Vision Project",
+        "data_target" : "#fer",
+        "full_pic": "Assets/Projects/FER-Full.png",
+        "details":
+        [
+            "An OpenCV project in which we have trained the model using the FER dataset to detect different kind of the emotions from the facial expressions of a person.",
+            "The project works in real-time, by using the webcam of the laptop, we can try to read the various emotions observed in aperson at any given moment."
+        ],
+        "tech": ["Python","OpenCV","Tensorflow"],
+        "github" : "No"
+    },
+    {
+        "title" : "Video Game Sales Analysis",
+        "icon" : "Assets/Projects/video-games.png",
+        "subtitle" : "Business Intelligence and Data Visualization",
+        "data_target" : "#videogames",
+        "full_pic" : "Assets/Projects/video-games-full.png",
+        "details":
+        [
+            "A business analytics problem, in which we analysis the sales data over the decades to help video game companies to identify current market trends,their competitors, and customer expectations better.",
+            "Additionally, we also study some case studies about the reason behind the rise of once popular companies and the secret to success of newer ones entering the market.",
+            "Framed and answered some important questions regarding the sales of video games for more clarity. The answers and inferences are noted down in a form of a report for the ease of understanding."
+        ],
+        "tech" : ["Python","Tableau","Matplotlib","Seaborn","Plotly"],
+        "github" : "Yes",
+        "link" : "https://github.com/Dharineesh-Karthikeyan/Video-game-sales-Visualization"
+    },
+    {
+        "title" : "Game of Throne Network Analysis",
+        "icon" : "Assets/Projects/got.png",
+        "subtitle" : "Graph and Network Analysis",
+        "data_target" : "#got",
+        "full_pic" : "Assets/Projects/got-full.png",
+        "details":
+        [
+            "Graph network analysis on the Game of thrones dataset using R.",
+            "Deep Analysis on the different centralities such as Degree, Closeness,Clustering, Betweenness centralities",
+            "A detailed report with the inferences and conclusions regarding who is the most influential and important character in GOT."
+        ],
+        "tech" : ["R - Programming","Tidyverse", "IGraph", "Statnet"],
+        "github" : "Yes",
+        "link" : "https://github.com/Dharineesh-Karthikeyan/Game-Of-Thrones-Network-Analysis"
+    }   
+]
+
