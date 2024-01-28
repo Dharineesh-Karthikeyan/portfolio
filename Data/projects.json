@@ -33,7 +33,7 @@
     },
     {
         "title" : "Facial Emotions Detector",
-        "icon" : "Assets/Projects/fer.png",
+        "icon" : "Assets/Projects/FER.png",
         "subtitle" : "Computer Vision Project",
         "data_target" : "#fer",
         "full_pic": "Assets/Projects/FER-Full.png",

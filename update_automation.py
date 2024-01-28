@@ -3,10 +3,10 @@ import json
 import re
 
 # Projects
-projects = json.load(open("projects.json","r"))
-work = json.load(open("work_projects.json","r"))
-job = json.load(open("jobs.json","r"))
-edu = json.load(open("education.json","r"))
+projects = json.load(open("Data/projects.json","r"))
+work = json.load(open("Data/work_projects.json","r"))
+job = json.load(open("Data/jobs.json","r"))
+edu = json.load(open("Data/education.json","r"))
 
 # Personal Projects HTML Tag
 count = 0
@@ -231,15 +231,15 @@ for j in job:
         """
     experience = experience + "</ul>"
     job_details = job_details + f"""
-                        <div class="row mb-15">
-                            <div class="col-md-2 col-lg-2 col-lg-offset-1">
-                                <p class="year"><h6>{date}</h6></p>
-                            </div>
-                            <div class="col-md-9 col-lg-8">
-                                <p class="mb-0"><strong>
-                                        <h5>{title}</h5><h6>{company}</h6>
-                                    </strong></p>
-                            <h6>{experience}</h6>
+                        <div class="row">
+                            <div class="col">
+                                <p class="year"><h6>{date}</h6>     <h6>{company}</h6></p>
+                                <p><strong>
+                                        <h5>{title}</h5>
+                                </strong></p>
+                                <p class ="mb-0">
+                                <h6>{experience}</h6>
+                                </p>
                             </div>
                         </div>
     """
@@ -253,11 +253,11 @@ for e in edu:
     gpa = e['GPA']
 
     edu_details = edu_details + f"""
-                                <div class="row mb-15">
-                                    <div class="col-md-2 col-lg-2 col-lg-offset-1">
+                                <div class="row">
+                                    <div class="col-sm-2">
                                         <p class="year"><h6>{date}</h6></p>
                                     </div>
-                                    <div class="col-sm-9 col-md-8">
+                                    <div class="col-sm-4">
                                         <p class="mb-0"><strong>
                                             <h5>{name}</h5>
                                         </strong></p>
